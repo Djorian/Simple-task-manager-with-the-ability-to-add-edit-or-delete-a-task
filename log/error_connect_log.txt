@@ -1,0 +1,10 @@
+06/10/2020 04:00:10 pm
+
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in W:\domains\6-github-simple-task-manager.loc\Classes\Database.php:40
+Stack trace:
+#0 W:\domains\6-github-simple-task-manager.loc\Classes\Database.php(88): Database->connect()
+#1 W:\domains\6-github-simple-task-manager.loc\tasks\show-tasks.php(11): Database->select('id, tasktext, d...', 'tasklist', '', '', 'id DESC', '')
+#2 {main}
+
+
+
